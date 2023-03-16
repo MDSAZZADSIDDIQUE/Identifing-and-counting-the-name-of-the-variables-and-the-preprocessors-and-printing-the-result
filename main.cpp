@@ -113,7 +113,7 @@ int main() {
       }
     }
     for (int j = unique_vector.size() - 1; j >= 0; j--) {
-      std::cout << "Preprocessor-" << j + 1 << ": " << unique_vector.at(j) << endl;
+      std::cout << "Preprocessor-" << unique_vector.size() - j << ": " << unique_vector.at(j) << endl;
     }
     cout << "Total number of preprocessor:" << unique_vector.size() << endl;
     file.close();
